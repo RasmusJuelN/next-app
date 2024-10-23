@@ -9,7 +9,6 @@ export default function Home() {
       <Link className='btn btn-secondary' href="/users">Users Page</Link>
       <Link className='btn btn-accent' href="/users/new">New Users Page</Link>
       <Link className='btn btn-neutral' href="/data">Data Page</Link>
-      <Link className='btn btn-primary' href="/nivochart">Nivo Chart Page</Link>
       <ProductCard/>
     </main>
     
