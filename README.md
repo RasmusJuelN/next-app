@@ -1,6 +1,6 @@
 # Real-Time power usage webapp
 
-A [Next.js](https://nextjs.org/) web application that displays real-time data visualizations of power usage from Shelly devices connected to power board. Data is sent to an influxDB and displayed using charts in next.js webapplication.
+A [Next.js](https://nextjs.org/) web application that displays real-time data visualizations of power usage from Shelly devices connected to power board. Data is sent to an influxDB and displayed using charts.
 
 ## Features
 
