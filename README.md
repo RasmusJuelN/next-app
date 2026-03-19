@@ -4,8 +4,6 @@ A [Next.js](https://nextjs.org/) web application that displays real-time data vi
 
 ## Features
 
-- **Home page** – landing page with navigation links
-- **Users page** (`/users`) – fetches and displays a list of users from the [JSONPlaceholder](https://jsonplaceholder.typicode.com/) API in a styled table
 - **Data page** (`/data`) – real-time memory-usage dashboard powered by [InfluxDB](https://www.influxdata.com/), visualised with interactive gauge charts
 
 ## Tech Stack
