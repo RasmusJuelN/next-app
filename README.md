@@ -1,6 +1,6 @@
 # next-app
 
-A [Next.js](https://nextjs.org/) web application that displays real-time data visualizations and a user directory.
+A [Next.js](https://nextjs.org/) web application that displays real-time data visualizations of power usage from Shelly devices connected to power board. Data is sent to an influxDB and displayed using charts in next.js webapplication.
 
 ## Features
 
@@ -18,34 +18,6 @@ A [Next.js](https://nextjs.org/) web application that displays real-time data vi
 | Charts | [Recharts](https://recharts.org/), [react-gauge-chart](https://github.com/Martin36/react-gauge-chart), [Nivo](https://nivo.rocks/), [Chart.js](https://www.chartjs.org/) |
 | Data source | [InfluxDB](https://www.influxdata.com/) via `@influxdata/influxdb-client` |
 
-## Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) 18 or later
-- An InfluxDB instance (required for the Data page)
-
-### Installation
-
-```bash
-npm install
-```
-
-### Running the development server
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### Other scripts
-
-| Command | Description |
-|---|---|
-| `npm run build` | Build for production |
-| `npm start` | Start the production server |
-| `npm run lint` | Run ESLint |
 
 ## Project Structure
 
